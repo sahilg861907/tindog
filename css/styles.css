@@ -1,0 +1,224 @@
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1,h2,h3{
+  font-family: 'Montserrat', sans-serif;
+}
+h2 {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+h3 {
+  font-weight: bold;
+  align-content: : center;
+  font-size: 1.5rem;
+}
+p {
+  color: #8f8f8f;
+}
+
+
+/* Nav-Bar */
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight:400;
+  padding:0 18px;
+  margin:0 18px;
+
+}
+
+
+/* Title-Section */
+.big-heading{
+  font-weight:800;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+    margin-bottom: 30px;
+}
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+  height: 35rem;
+}
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.download-button{
+  margin:5% 3% 5% 0;
+}
+
+.iphone{
+
+max-width: 60%;
+transform:rotate(25deg);
+position: relative;
+left: 15%;
+
+
+}
+
+
+/* Features */
+
+
+#features {
+padding: 7% 15%;
+
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+    text-align: center;
+}
+
+#features .container-fluid{
+  width:100%;
+
+}
+
+
+
+.fbox{
+width: 30%;
+padding:4.5%;
+}
+
+
+.ficon {
+padding-bottom: 1.5rem;
+  color: #ef8172;
+
+}
+
+.ficon:hover{
+  color: #ff4c68;
+}
+
+.feature-descp {
+  color: #8f8f8f;
+
+}
+
+
+
+/* Testimonials */
+
+#testimonials {
+
+  background-color: #ef8172;
+  color:#fff;
+  text-align: center;
+}
+.testimonial-images {
+  width: 10%;
+  border-radius: 100%;
+margin: 20px;
+}
+#press{
+  background-color:#ef8172;
+   padding-bottom: 3%;
+   text-align: center;
+}
+.press-logo {
+  width:15%;
+  margin:20px 20px 50px;
+
+}
+.carousel-item {
+    padding:7% 15%;
+}
+
+
+/* pricing section */
+
+#pricing {
+  padding:100px;
+  text-align:center;
+}
+.pricing-column{
+  padding:3% 2%;
+}
+
+
+/* Call To Action */
+#cta {
+    background-color: #ff4c68;
+    color: #fff;
+
+}
+.cta-title {
+  text-align: center;
+  padding: 5% 27%;
+}
+
+.cta-download-button{
+
+    margin:0 1% 7% 1%;
+
+
+}
+.cta-download-button-ar{
+  text-align: center;
+}
+
+
+/* Footer */
+#footer{
+  background-color: #fff;
+  text-align: center;
+}
+
+.footer-icon{
+  margin:4rem 0.5rem 1.5rem 0.5rem;
+
+}
+
+
+@media (max-width:1078px){
+
+  .title-box{
+      display: block;
+      text-align: center;
+
+  }
+  .iphone{
+     position:relative;
+     transform: rotate(0deg);
+     margin-left: auto;
+     margin-right: auto;
+
+
+  }
+  #features{
+    position: relative;
+  }
+  #title{
+    height: auto;
+
+  }
+  #title.container-fluid{
+    text-align: center;
+  }
+
+  #testimonils{
+    position: relative;
+  }
+
+
+}
